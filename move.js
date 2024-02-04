@@ -1,5 +1,12 @@
+
 function move(element) {
     element.style.position = 'fixed'
+
+
+
+    function moveCharacter(){
+
+    }
 
     function moveToCoordinates(left, bottom) {
         element.style.left = left + 'px'
@@ -10,3 +17,4 @@ function move(element) {
         to: moveToCoordinates
     }
 }
+
